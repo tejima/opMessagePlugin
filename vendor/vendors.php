@@ -23,4 +23,3 @@ system(sprintf('mkdir %s/plugins/opMessagePlugin ', escapeshellarg($installDir))
 system(sprintf('cd %s && mv apps config data i18n lib templates test web vendor/OpenPNE/plugins/opMessagePlugin',escapeshellarg($vendorDir . "/../" )));
 
 
-}
